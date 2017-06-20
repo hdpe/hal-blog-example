@@ -1,8 +1,8 @@
-package hal.example.client.hc.model;
+package me.hdpe.halblog.client.bowman.model;
 
 import java.math.BigDecimal;
 
-import uk.co.blackpepper.halclient.annotation.LinkedResource;
+import uk.co.blackpepper.bowman.annotation.LinkedResource;
 
 public class Account {
 

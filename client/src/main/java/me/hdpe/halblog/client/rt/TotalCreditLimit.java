@@ -1,11 +1,6 @@
-package hal.example.client.rt;
+package me.hdpe.halblog.client.rt;
 
-import java.math.BigDecimal;
 import java.util.Arrays;
-
-import hal.example.client.rt.model.Account;
-import hal.example.client.rt.model.AccountType;
-import hal.example.client.rt.model.Customer;
 
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.Resource;
@@ -15,6 +10,10 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import org.springframework.web.client.RestTemplate;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import me.hdpe.halblog.client.rt.model.Account;
+import me.hdpe.halblog.client.rt.model.AccountType;
+import me.hdpe.halblog.client.rt.model.Customer;
 
 public class TotalCreditLimit {
 

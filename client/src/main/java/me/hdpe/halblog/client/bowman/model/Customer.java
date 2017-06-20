@@ -1,8 +1,8 @@
-package hal.example.client.hc.model;
+package me.hdpe.halblog.client.bowman.model;
 
 import java.util.Set;
 
-import uk.co.blackpepper.halclient.InlineAssociationDeserializer;
+import uk.co.blackpepper.bowman.InlineAssociationDeserializer;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 

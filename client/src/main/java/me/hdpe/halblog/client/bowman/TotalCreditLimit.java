@@ -1,13 +1,13 @@
-package hal.example.client.hc;
-
-import hal.example.client.hc.model.Account;
-import hal.example.client.hc.model.Customer;
+package me.hdpe.halblog.client.bowman;
 
 import java.net.URI;
 
-import uk.co.blackpepper.halclient.Client;
-import uk.co.blackpepper.halclient.ClientFactory;
-import uk.co.blackpepper.halclient.Configuration;
+import me.hdpe.halblog.client.bowman.model.Account;
+import me.hdpe.halblog.client.bowman.model.Customer;
+
+import uk.co.blackpepper.bowman.Client;
+import uk.co.blackpepper.bowman.ClientFactory;
+import uk.co.blackpepper.bowman.Configuration;
 
 public class TotalCreditLimit {
 

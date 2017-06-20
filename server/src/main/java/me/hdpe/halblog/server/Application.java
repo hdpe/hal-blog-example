@@ -1,9 +1,4 @@
-package hal.example;
-
-import hal.example.model.AccountType;
-import hal.example.model.Customer;
-import hal.example.repository.AccountTypeRepository;
-import hal.example.repository.CustomerRepository;
+package me.hdpe.halblog.server;
 
 import java.math.BigDecimal;
 
@@ -12,6 +7,11 @@ import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import me.hdpe.halblog.server.model.AccountType;
+import me.hdpe.halblog.server.model.Customer;
+import me.hdpe.halblog.server.repository.AccountTypeRepository;
+import me.hdpe.halblog.server.repository.CustomerRepository;
 
 @SpringBootApplication
 public class Application {

@@ -3,15 +3,20 @@
 
 	<parent>
 		<groupId>me.hdpe</groupId>
-		<artifactId>hal-client-blog-example-parent</artifactId>
+		<artifactId>hal-blog-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>hal-client-blog-example-client</artifactId>
+	<artifactId>hal-blog-client</artifactId>
 
 	<dependencies>
+		<dependency>
+			<groupId>uk.co.blackpepper.bowman</groupId>
+			<artifactId>bowman-client</artifactId>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>

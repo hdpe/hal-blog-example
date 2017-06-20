@@ -1,4 +1,4 @@
-package hal.example.client.rt.model;
+package me.hdpe.halblog.client.rt.model;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package hal.example.model;
+package me.hdpe.halblog.server.model;
 
 import java.math.BigDecimal;
 
@@ -23,7 +23,9 @@ public class Account {
 	
 	private BigDecimal creditLimit;
 
+	@SuppressWarnings("unused")
 	private Account() {
+		// for JPA
 	}
 	
 	public Account(Customer customer, AccountType type, BigDecimal creditLimit) {

@@ -1,4 +1,4 @@
-package hal.example.client.hc.model;
+package me.hdpe.halblog.client.bowman.model;
 
 public class AccountType {
 

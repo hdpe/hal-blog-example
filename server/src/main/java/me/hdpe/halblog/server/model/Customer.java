@@ -1,4 +1,4 @@
-package hal.example.model;
+package me.hdpe.halblog.server.model;
 
 import java.math.BigDecimal;
 import java.util.LinkedHashSet;
@@ -23,7 +23,9 @@ public class Customer {
 	@OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
 	private Set<Account> accounts = new LinkedHashSet<>();
 
+	@SuppressWarnings("unused")
 	private Customer() {
+		// for JPA
 	}
 	
 	public Customer(String name) {

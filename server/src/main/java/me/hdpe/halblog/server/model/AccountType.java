@@ -1,4 +1,4 @@
-package hal.example.model;
+package me.hdpe.halblog.server.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,7 +14,9 @@ public class AccountType {
 
 	private String name;
 	
+	@SuppressWarnings("unused")
 	private AccountType() {
+		// for JPA
 	}
 	
 	public AccountType(String name) {
